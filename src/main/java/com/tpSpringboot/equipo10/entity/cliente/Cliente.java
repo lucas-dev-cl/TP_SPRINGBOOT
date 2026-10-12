@@ -13,7 +13,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Cliente extends AuditoriaApp {
 
-
     @Column(name = "cuit_cuil", nullable = false)
     private String cuitCuil;
 
